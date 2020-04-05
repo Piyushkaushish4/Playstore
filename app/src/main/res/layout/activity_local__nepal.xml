@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Local_Nepal">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginBottom="598dp"
+        android:background="@drawable/botttondesign"
+        android:onClick="daraj"
+        android:text="Daraj"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="283dp"
+        android:background="#ccc"
+        android:text="Online Payment"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ba0404"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="539dp"
+        android:background="@drawable/botttondesign"
+        android:onClick="sastodeal"
+        android:text="sastodeal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="481dp"
+        android:background="@drawable/botttondesign"
+        android:onClick="nepbay"
+         android:text="NEPBAY"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/butto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="419dp"
+        android:background="@drawable/botttondesign"
+        android:onClick="socheko"
+
+        android:text="socheko"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="357dp"
+        android:background="@drawable/botttondesign"
+        android:onClick="hamrobazar"
+
+        android:text="hamrobazar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <!--<Button-->
+        <!--android:id="@+id/butto6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="71dp"-->
+        <!--android:layout_marginRight="71dp"-->
+        <!--android:layout_marginBottom="298dp"-->
+        <!--android:background="@drawable/botttondesign"-->
+        <!--android:onClick="urbanclap"-->
+
+        <!--android:text="UrbanClap"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="40dp"-->
+        <!--tools:layout_editor_absoluteY="144dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="71dp"-->
+        <!--android:layout_marginRight="71dp"-->
+        <!--android:layout_marginBottom="236dp"-->
+        <!--android:background="@drawable/botttondesign"-->
+        <!--android:onClick="shopclues"-->
+        <!--android:text="shopclues"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="40dp"-->
+        <!--tools:layout_editor_absoluteY="144dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button8"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="69dp"-->
+        <!--android:layout_marginRight="69dp"-->
+        <!--android:layout_marginBottom="175dp"-->
+        <!--android:background="@drawable/botttondesign"-->
+        <!--android:onClick="zivame"-->
+        <!--android:text="zIVAME"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="40dp"-->
+        <!--tools:layout_editor_absoluteY="144dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/butto9"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="71dp"-->
+        <!--android:layout_marginRight="71dp"-->
+        <!--android:layout_marginBottom="114dp"-->
+        <!--android:background="@drawable/botttondesign"-->
+        <!--android:onClick="Lenskart"-->
+        <!--android:text="Lenskart"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="40dp"-->
+        <!--tools:layout_editor_absoluteY="144dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button10"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginEnd="70dp"-->
+        <!--android:layout_marginRight="70dp"-->
+        <!--android:layout_marginBottom="55dp"-->
+        <!--android:background="@drawable/botttondesign"-->
+        <!--android:onClick="voonik"-->
+        <!--android:text="Voonik"-->
+        <!--tools:ignore="MissingConstraints"-->
+        <!--tools:layout_editor_absoluteX="40dp"-->
+        <!--tools:layout_editor_absoluteY="144dp" />-->
+
+
+</RelativeLayout>
